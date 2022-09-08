@@ -3,6 +3,10 @@ body{
     margin: 0px;
 }
 
+/* body:has([type="checkbox"]:checked){
+    background: rgb(240, 240, 240);
+} */
+
 #nav_1{
     background: rgb(80, 80, 80);
     padding: 0px 0px 0px 0px;
