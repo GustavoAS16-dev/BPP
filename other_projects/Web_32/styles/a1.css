@@ -7,10 +7,16 @@ body{
 p, h1, h2, h3, h4, h5, h6, li{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 p{
     text-indent: 50px;
+    text-align: justify;
+}
+
+li{
+    text-align: justify;
 }
 
 #mainID_1{
@@ -34,4 +40,8 @@ p{
 
 .h1_1{
     color: rgb(0, 190, 32);
+}
+
+.ul_1{
+    margin-left: 50px;
 }
