@@ -13,6 +13,7 @@ p, h1, h2, h3, h4, h5, h6, li{
 p{
     text-indent: 50px;
     text-align: justify;
+    line-height: 0.6cm;
 }
 
 li{
@@ -30,8 +31,7 @@ li{
 }
 
 .img_1{
-    width: 500px;
-    height: 500px;
+    width: 70%;
 }
 
 .img_1::alt{
@@ -46,6 +46,17 @@ li{
     color: rgb(0, 190, 32);
 }
 
+.h2_1{
+    color: rgb(214, 20, 20);
+    text-align: left;
+}
+
 .ul_1{
     margin-left: 50px;
+}
+
+.img_2{
+    /* width: 500px;
+    height: 400px; */
+    width: 70%;
 }
