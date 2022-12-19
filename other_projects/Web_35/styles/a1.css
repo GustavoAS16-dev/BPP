@@ -108,7 +108,8 @@ a{
 }
 
 .login_div_1{
-    width: 25%;
+    width: 80%;
+    max-width: 350px;
     /* height: 90%; */
 }
 
