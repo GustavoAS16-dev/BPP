@@ -79,12 +79,12 @@ a{
 
 .login_form_1 .textBox_1{
     width: 70%;
-    height: 40px;
+    /* height: 40px; */
     background: rgb(16, 17, 22/* , 0.9 */);
     border: none;
     outline: none;
     color: white;
-    padding: 2px;
+    padding: 4% 2px;
     font-size: 15px;
     padding-left: 10px;
     border-bottom: 1px white solid;
@@ -97,9 +97,9 @@ a{
 
 .login_form_1 .submit_1{
     width: 73%;
-    height: 44px;
+    /* height: 44px; */
     border: 0px;
-    padding: 0px;
+    padding: 4% 0px;
     margin: 0px;
     background: rgb(8, 151, 207);
     border-radius: 3px;
@@ -107,7 +107,7 @@ a{
     font-size: 14px;
 }
 
-/* @media (max-width: 1000px)
+@media all and (orientation:portrait)
 {
     .login_div_1{
         width: 80%;
@@ -115,19 +115,19 @@ a{
     }
 }
 
-@media (min-width: 1000px)
+@media all and (orientation:landscape)
 {
     .login_div_1{
         width: 25%;
         min-width: 350px;
     }
-} */
+}
 
-.login_div_1{
+/* .login_div_1{
     width: 80%;
     min-width: 350px;
-    /* height: 90%; */
-}
+    height: 100%;
+} */
 
 /* .logo_2{
     width: 32px;
