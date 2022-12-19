@@ -70,6 +70,7 @@ p, h1, h2, h3, h4, h5, h6, a, li{
 
 .h1_2{
     color: white;
+    padding: 1% 0px;
 }
 
 a{
@@ -125,6 +126,25 @@ a{
         width: 80%;
         min-width: 350px;
     }
+
+    #pID_1{
+        padding: 2% 0px;
+        font-size: 100%;
+    }
+
+    .submit_1{
+        padding: 2% 0px;
+    }
+
+    .h1_2{
+        color: white;
+        padding: 0px;
+        font-size: 175%;
+    }
+
+    #pID_1{
+        font-size: 100%;
+    }
 }
 
 @media all and (orientation:landscape)
@@ -132,6 +152,21 @@ a{
     .login_div_1{
         width: 25%;
         min-width: 350px;
+    }
+
+    #pID_1{
+        padding: 1% 0px;
+        font-size: 100%;
+    }
+
+    .submit_1{
+        padding: 1% 0px;
+    }
+
+    .h1_2{
+        color: white;
+        padding: 1% 0px;
+        font-size: 150%;
     }
 }
 
