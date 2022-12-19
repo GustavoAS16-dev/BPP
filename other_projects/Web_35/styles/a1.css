@@ -107,9 +107,25 @@ a{
     font-size: 14px;
 }
 
+/* @media (max-width: 1000px)
+{
+    .login_div_1{
+        width: 80%;
+        min-width: 350px;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .login_div_1{
+        width: 25%;
+        min-width: 350px;
+    }
+} */
+
 .login_div_1{
     width: 80%;
-    max-width: 350px;
+    min-width: 350px;
     /* height: 90%; */
 }
 
